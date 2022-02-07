@@ -3,3 +3,52 @@
 ---
 
 @import 'modern-resume-theme';
+
+#about-me {
+  display: none;
+}
+
+.header-left {
+  margin-top: 0;
+}
+
+.intro-container, .list-container, .text-container {
+  h3 {
+    font-weight: bold;
+    border-bottom: none;
+  }
+}
+
+.intro-container {
+  .row {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    p {
+      text-align: center;
+    }
+  }
+}
+
+$padding-left: 10px;
+.list-container, .text-container {
+  margin-top: 6rem;
+  h3 {
+    text-align: left;
+    padding-left: $padding-left;
+    border-bottom: dashed 0.5px #CCC;
+  }
+  .row {
+    padding-left: $padding-left;
+    p.quote {
+      text-align: left;
+      padding-left: 0;
+    }
+  }
+}
+
+.footer-container {
+  p, a {
+    font-style: normal;
+  }
+}
