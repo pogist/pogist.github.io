@@ -12,6 +12,12 @@
   margin-top: 0;
 }
 
+.profile-img {
+  background-position: none;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+
 .intro-container, .list-container, .text-container {
   h3 {
     font-weight: bold;
@@ -25,6 +31,7 @@
     align-items: center;
     flex-direction: column;
     p {
+      font-size: large;
       text-align: center;
     }
   }
