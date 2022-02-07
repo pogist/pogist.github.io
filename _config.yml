@@ -44,22 +44,14 @@ content:
     layout: list # Type of content section (list/text)
     content:
       - layout: left
-        border: weak  # Value of `weak` will display a weak border below this item. # Any 
-                      # other value (or no value) means no border will be displayed
-        title: Project name
-        link: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
-        link_text: Link Text
-        additional_links:
-          - title:  Github page for project (eg. sproogen/modern-resume-theme)
-            icon: fab fa-github
-            url: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
-          - title:  Github page for project (eg. sproogen/modern-resume-theme)
-            icon: fab fa-github
-            url: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
+        border: weak
+        title: react-native-bitmovin-player
+        link: https://github.com/take0ffmedia/react-native-bitmovin-player
+        link_text: take0ffmedia/react-native-bitmovin-player
         quote: >
-          Short overview of the project (optional)
+          An open-source react-native wrapper for Bitmovin's player SDK.
         description: | # this will include new lines to allow paragraphs
-          Description about the work on/with the project
+          Added support for **picture-in-picture** detection on Android and wrote a [post](https://stackoverflow.com/questions/70110987/pass-onpictureinpicturemodechanged-result-into-a-react-native-module/70174114#70174114) on stackoverflow about it. Built as part of a freelancing job for Bitmovin.
   - title: Experience
     layout: list
     content:
