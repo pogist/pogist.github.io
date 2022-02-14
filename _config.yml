@@ -37,11 +37,11 @@ linkedin_username: pogist
 # about_title: About Me (Use this to override about section title)
 about_profile_image: images/profile.jpg
 about_content: | # this will include new lines to allow paragraphs
-  Mobile and front-end developer based in Brazil, focused on new and scalable technologies, who loves sharing knowledge, thinks analytically and cares about self-improvement. Enjoys talking and studying about functional and reactive programming, and mobile native/front-end architecture patterns.
+  Mobile and front-end developer based in Brazil focused on new and scalable technologies, who loves sharing knowledge, thinks analytically, and cares about self-improvement. Enjoys talking and studying about functional and reactive programming, and mobile native/front-end architecture patterns.
 
 content:
-  - title: Projects # Title for the section
-    layout: list # Type of content section (list/text)
+  - title: Projects
+    layout: list
     content:
       - layout: left
         title: react-native-bitmovin-player
@@ -55,14 +55,49 @@ content:
     layout: list
     content:
       - layout: left
-        title: Company name
-        sub_title: Job title
-        caption: Date Range (eg. November 2016 - present)
-        link: Link to company (optional)
+        title: Beakyn
+        sub_title: Senior Full-Stack Developer
+        caption: fev. 2021 - Now
+        link: https://beakyn.com/
         quote: >
-          Short description of the company (optional)
-        description: | # this will include new lines to allow paragraphs
-          Description of role
+          Beakyn supports many US companies, like <a href="https://www.outfrontmedia.com/">Outfront Media Inc.</a> - one of the biggest outdoor media companies in the world - with the datasets and tools needed to process and visualize US geodata.
+        description: |
+            - Design, develop and improve features on the core API - a monolithic nest.js/graphql server written in typescript - which empowers all Beakyn's clients;
+            - Implement features and improvements on Outfront's dashboard - the internal tool used to visualize and interact with geographical data and media inventory - using sass, react.js, redux, redux-sagas, and many others;
+            - Design and develop a service in golang for fast excel files generation based on the core API's data. It helps Outfront export inventory data using different templates and formats.
+      - layout: left
+        title: Stone Co.
+        sub_title: Mobile/React Native Developer
+        caption: set. 2018 - jan. 2021
+        link: https://www.stone.co/
+        quote: >
+          Stone Co. is a Brazilian fintech that provides many products and services to process physical and digital credit card payments.
+        description: |
+          During my time at Stone Co., I worked on a project called Ton - a product focused on helping individuals start and grow their businesses. And there I was responsible to:
+            - Develop and improve an internal C library to parse and manipulate [ABECS](https://api.abecs.org.br/wp-content/uploads/2019/11/Certificac%CC%A7a%CC%83o-Abecs.pdf) protocol packets for communication between smartphones and bluetooth pinpads;
+            - Develop and improve native mobile SDKs for both Android (Java) and iOS (Swift) to manage bluetooth communication and access the C library's functionalities;
+            - Implement React Native native modules for both Android (Java) and iOS (Objective-C) to enable the use of the native SDKs from the main app;
+            - Implement and improve features on the main app using typescript, react native, redux, redux-epics, rxjs, and others;
+            - Automate the app's continuous delivery process using CircleCI and fastlane;
+            - Implement and improve some micro-services using node.js, AWS lambda, dynamodb, sqs, and other services from the AWS stack.
+      - layout: left
+        title: WiseGo
+        sub_title: iOS App Developer
+        caption: dez. 2017 - ago. 2018
+        link: http://www.wisegoapp.com/
+        quote: >
+          A tourism startup focused on providing more autonomy and independence in the traveling experience.
+        description: |
+            - Implement and improve features of the native iOS app using Swift and the GoogleMaps API.
+      - layout: left
+        title: Apple Developer Academy / IFCE
+        sub_title: iOS Development Intern
+        caption: jan. 2016 - dez. 2017
+        link: http://developeracademy.ifce.edu.br/
+        quote: >
+          Educational program for iOS Developers aiming to grow them by training Swift/Objective-C and other Apple technologies.
+        description: |
+            - Develop educational apps using various Apple technologies eg. iOS, watchOs, tvOS, and macOS with Objective-C and Swift.
   - title: Education
     layout: list
     content:

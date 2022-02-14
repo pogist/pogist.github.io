@@ -19,14 +19,14 @@
     font-weight: bold;
     border-bottom: none;
   }
-}
-
-.intro-container {
   .row {
     display: flex;
     align-items: center;
-    p {
-      font-size: large;
+    li {
+      margin-top: 1rem;
+      text-align: left;
+    }
+    p.quote {
       text-align: left;
     }
   }
@@ -36,18 +36,6 @@
   .row {
     p {
       text-align: center;
-    }
-  }
-}
-
-.list-container, .text-container {
-  h3 {
-    border-bottom: none;
-  }
-  .row {
-    p.quote {
-      text-align: left;
-      padding-left: 0;
     }
   }
 }
