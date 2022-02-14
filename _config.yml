@@ -37,7 +37,7 @@ linkedin_username: pogist
 # about_title: About Me (Use this to override about section title)
 about_profile_image: images/profile.jpg
 about_content: | # this will include new lines to allow paragraphs
-  Mobile and front-end developer based in Brazil focused on new and scalable technologies, who loves sharing knowledge, thinks analytically, and cares about self-improvement. Enjoys talking and studying about functional and reactive programming, and mobile native/front-end architecture patterns.
+  23 yo mobile and front-end developer based in Brazil focused on new and scalable technologies, who loves sharing knowledge, thinks analytically, and cares about self-improvement. Enjoys talking and studying about functional and reactive programming, and mobile native/front-end architecture patterns.
 
 content:
   - title: Projects
@@ -102,13 +102,19 @@ content:
     layout: list
     content:
       - layout: left
-        title: Institution name
-        sub_title: Qualifications (eg. BA Performing Arts)
-        caption: Date Range (eg. 2016 - 2019)
+        title: Universidate Federal do Ceará
+        sub_title: Bachelor's degree
+        caption: jan. 2018 - ago. 2018
+        link: https://cc.ufc.br/
         quote: >
-          Short institution or course description (optional)
-        description: | # this will include new lines to allow paragraphs
-          Description of qualification
+          Federal university of the State of Ceará.
+        description:
+          Incomplete bachelor's degree on Computer Science.
+      - layout: left
+        title: IFCE
+        sub_title: STEM degree
+        caption: jan. 2013 - dez. 2017
+        link: https://ifce.edu.br/
   - title: A Little More About Me
     layout: text
     content: | # this will include new lines to allow paragraphs
