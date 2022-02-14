@@ -4,10 +4,6 @@
 
 @import 'modern-resume-theme';
 
-#about-me {
-  display: none;
-}
-
 .header-left {
   margin-top: 0;
 }
@@ -29,24 +25,26 @@
   .row {
     display: flex;
     align-items: center;
-    flex-direction: column;
     p {
       font-size: large;
+      text-align: left;
+    }
+  }
+}
+
+.text-container {
+  .row {
+    p {
       text-align: center;
     }
   }
 }
 
-$padding-left: 10px;
 .list-container, .text-container {
-  margin-top: 6rem;
   h3 {
-    text-align: left;
-    padding-left: $padding-left;
-    border-bottom: dashed 0.5px #CCC;
+    border-bottom: none;
   }
   .row {
-    padding-left: $padding-left;
     p.quote {
       text-align: left;
       padding-left: 0;
