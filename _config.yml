@@ -11,7 +11,7 @@ title: Senior Mobile & Web Developer
 email: murilo.paixao.2@gmail.com
 
 # Dark Mode (true/false/never)
-darkmode: true
+darkmode: false 
 
 # Social links
 github_username: pogist
@@ -37,7 +37,14 @@ linkedin_username: pogist
 # about_title: About Me (Use this to override about section title)
 about_profile_image: images/profile.jpg
 about_content: | # this will include new lines to allow paragraphs
-  23 yo mobile and front-end developer based in Brazil focused on new and scalable technologies, who loves sharing knowledge, thinks analytically, and cares about self-improvement. Enjoys talking and studying about functional and reactive programming, and mobile native/front-end architecture patterns.
+  Mobile and front-end developer based in Brazil focused on new and scalable technologies, who loves sharing knowledge, thinks analytically, and cares about self-improvement. Enjoys talking and studying about functional and reactive programming, and mobile native/front-end architecture patterns.<br /><br />Profissional skills:
+    - **Mobile:** 5+ years as a native mobile developer, mainly React Native/iOS, working from native iOS mobile apps
+      to native React Native modules (Java, Kotlin, Objective-C and Swift) and automating
+      CI/CD with fastlane on CircleCI (iOS, Android and React Native);
+    - **Front-end:** 3+ years experience working on large react.js/redux projects, from React Native mobile apps to dashboards,
+      using the latest tools in modern web development eg. typescript, flowtype, pnpm, swc, esbuild etc;
+    - **Back-end:** 3+ years experience working on back-end projects with typescript/node.js using technologies like
+      nest.js, graphql, elasticsearch, docker, github actions, AWS stack etc.
 
 content:
   - title: Projects
@@ -108,19 +115,17 @@ content:
         link: https://cc.ufc.br/
         quote: >
           Federal university of the State of Ceará.
-        description:
+        description: |
           Incomplete bachelor's degree on Computer Science.
       - layout: left
         title: IFCE
         sub_title: STEM degree
         caption: jan. 2013 - dez. 2017
         link: https://ifce.edu.br/
-  - title: A Little More About Me
-    layout: text
-    content: | # this will include new lines to allow paragraphs
-      This is where you can write a little more about yourself. You could title this section **Interests** and include some of your other interests.
-
-      Or you could title it **Skills** and write a bit more about things that make you more desirable, like *leadership* or *teamwork*
+        quote: >
+          Instituto Federal de Educação, Ciência e Tecnologia do Ceará
+        description: |
+          Student at a technical course in the area of Information Technology (IT) integrated to the high school–similar to the STEM model–, which aims training professionals to work directly with computer systems, including the efficient use, programming and support for equipment use.
 
 # Footer
 footer_show_references: false
