@@ -4,6 +4,10 @@
 
 @import 'modern-resume-theme';
 
+p, ul {
+  text-align: left;
+}
+
 .header-left {
   margin-top: 0;
 }
@@ -29,12 +33,6 @@
     p.quote {
       text-align: left;
     }
-  }
-}
-
-.footer-container {
-  p, a {
-    font-style: normal;
   }
 }
 

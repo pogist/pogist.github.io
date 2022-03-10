@@ -38,13 +38,12 @@ linkedin_username: pogist
 about_profile_image: images/profile.jpg
 about_content: | # this will include new lines to allow paragraphs
   Mobile and front-end developer based in Brazil focused on new and scalable technologies, who loves sharing knowledge, thinks analytically, and cares about self-improvement. Enjoys talking and studying about functional and reactive programming, and mobile native/front-end architecture patterns.<br /><br />Profissional skills:
-    - **Mobile:** 5+ years as a native mobile developer, mainly React Native/iOS, working from native iOS mobile apps
-      to native React Native modules (Java, Kotlin, Objective-C and Swift) and automating
-      CI/CD with fastlane on CircleCI (iOS, Android and React Native);
-    - **Front-end:** 3+ years experience working on large react.js/redux projects, from React Native mobile apps to dashboards,
-      using the latest tools in modern web development eg. typescript, flowtype, pnpm, swc, esbuild etc;
-    - **Back-end:** 3+ years experience working on back-end projects with typescript/node.js using technologies like
-      nest.js, graphql, elasticsearch, docker, github actions, AWS stack etc.
+    - **Mobile:** 5+ years as a native mobile developer, mainly iOS/React Native, with working experience ranging
+      from Swift/Objective-C native iOS mobile apps to RN's native modules (Android and iOS) and CI/CD automation with fastlane.
+    - **Front-end:** 3+ years experience working on large react.js projects, from native mobile apps to web dashboards,
+      using modern web development tools eg. typescript, pnpm, esbuild, vitejs, etc.
+    - **Back-end:** 3+ years experience working on node.js/typescript back-end projects using tools like
+      nest.js, graphql, elasticsearch, docker, github actions and AWS stack.
 
 content:
   - title: Projects
@@ -55,9 +54,9 @@ content:
         link: https://github.com/take0ffmedia/react-native-bitmovin-player
         link_text: take0ffmedia/react-native-bitmovin-player
         quote: >
-          An open-source react-native wrapper for Bitmovin's player SDK.
+          An open-source react-native wrapper for Bitmovin's native player SDK.
         description: | # this will include new lines to allow paragraphs
-          Added support for **picture-in-picture** detection on Android and wrote a [post](https://stackoverflow.com/questions/70110987/pass-onpictureinpicturemodechanged-result-into-a-react-native-module/70174114#70174114) on stackoverflow about it. Built as part of a freelancing job for Bitmovin.
+          Added support for **picture-in-picture** mode detection on Android and wrote a [post](https://stackoverflow.com/questions/70110987/pass-onpictureinpicturemodechanged-result-into-a-react-native-module/70174114#70174114) on stackoverflow about it.
   - title: Experience
     layout: list
     content:
@@ -69,9 +68,9 @@ content:
         quote: >
           Beakyn supports many US companies, like <a href="https://www.outfrontmedia.com/">Outfront Media Inc.</a> - one of the biggest outdoor media companies in the world - with the datasets and tools needed to process and visualize US geodata.
         description: |
-            - Design, develop and improve features on the core API - a monolithic nest.js/graphql server written in typescript - which empowers all Beakyn's clients;
-            - Implement features and improvements on Outfront's dashboard - the internal tool used to visualize and interact with geographical data and media inventory - using sass, react.js, redux, redux-sagas, and many others;
-            - Design and develop a service in golang for fast excel files generation based on the core API's data. It helps Outfront export inventory data using different templates and formats.
+            - Design and develop features to the core API - a monolithic nest.js/graphql server written in typescript - which empowers all Beakyn's clients;
+            - Add features and improvements to the Outfront's dashboard - the internal visualization tool used to interact with geographical data and media inventory - with tools like sass, react.js, redux, redux-sagas, etc.;
+            - Develop a service in golang for fast data export in excel format.
       - layout: left
         title: Stone Co.
         sub_title: Mobile/React Native Developer
@@ -81,21 +80,21 @@ content:
           Stone Co. is a Brazilian fintech that provides many products and services to process physical and digital credit card payments.
         description: |
           During my time at Stone Co., I worked on a project called Ton - a product focused on helping individuals start and grow their businesses. And there I was responsible to:
-            - Develop and improve an internal C library to parse and manipulate [ABECS](https://api.abecs.org.br/wp-content/uploads/2019/11/Certificac%CC%A7a%CC%83o-Abecs.pdf) protocol packets for communication between smartphones and bluetooth pinpads;
-            - Develop and improve native mobile SDKs for both Android (Java) and iOS (Swift) to manage bluetooth communication and access the C library's functionalities;
-            - Implement React Native native modules for both Android (Java) and iOS (Objective-C) to enable the use of the native SDKs from the main app;
-            - Implement and improve features on the main app using typescript, react native, redux, redux-epics, rxjs, and others;
-            - Automate the app's continuous delivery process using CircleCI and fastlane;
-            - Implement and improve some micro-services using node.js, AWS lambda, dynamodb, sqs, and other services from the AWS stack.
+            - Develop and improve an internal C library to parse and manipulate [ABECS](https://api.abecs.org.br/wp-content/uploads/2019/11/Certificac%CC%A7a%CC%83o-Abecs.pdf) protocol packets for communication between smartphones and low-energy bluetooth pinpads;
+            - Develop and improve native mobile SDKs for both Android (Java) and iOS (Swift) to manage bluetooth communication and access to the ABECS parser C library;
+            - Implement RN native modules for both Android (Java) and iOS (Objective-C) to bridge functionalities from the native SDKs;
+            - Implement and improve features on the main app using typescript, react native, redux, redux-epics, rxjs, and other tools;
+            - Automate app's continuous delivery process with fastlane on circleCI;
+            - Implement and improve a few micro-services using node.js, AWS lambda, dynamodb, sqs, and other AWS stack services.
       - layout: left
         title: WiseGo
         sub_title: iOS App Developer
         caption: dez. 2017 - ago. 2018
         link: http://www.wisegoapp.com/
         quote: >
-          A tourism startup focused on providing more autonomy and independence in the traveling experience.
+          A tourism startup focused on providing more autonomy and independence on the traveling experience.
         description: |
-            - Implement and improve features of the native iOS app using Swift and the GoogleMaps API.
+            - Implement and improve features of the native iOS app using Swift and GoogleMaps API.
       - layout: left
         title: Apple Developer Academy / IFCE
         sub_title: iOS Development Intern
@@ -105,27 +104,6 @@ content:
           Educational program for iOS Developers aiming to grow them by training Swift/Objective-C and other Apple technologies.
         description: |
             - Develop educational apps using various Apple technologies eg. iOS, watchOs, tvOS, and macOS with Objective-C and Swift.
-  - title: Education
-    layout: list
-    content:
-      - layout: left
-        title: Universidate Federal do Ceará
-        sub_title: Bachelor's degree
-        caption: jan. 2018 - ago. 2018
-        link: https://cc.ufc.br/
-        quote: >
-          Federal university of the State of Ceará.
-        description: |
-          Incomplete bachelor's degree on Computer Science.
-      - layout: left
-        title: IFCE
-        sub_title: STEM degree
-        caption: jan. 2013 - dez. 2017
-        link: https://ifce.edu.br/
-        quote: >
-          Instituto Federal de Educação, Ciência e Tecnologia do Ceará
-        description: |
-          Student at a technical course in the area of Information Technology (IT) integrated to the high school–similar to the STEM model–, which aims training professionals to work directly with computer systems, including the efficient use, programming and support for equipment use.
 
 # Footer
 footer_show_references: false
