@@ -37,11 +37,11 @@ linkedin_username: pogist
 # about_title: About Me (Use this to override about section title)
 about_profile_image: images/profile.jpg
 about_content: | # this will include new lines to allow paragraphs
-  Mobile and front-end developer based in Brazil focused on new and scalable technologies, who loves sharing knowledge, thinks analytically, and cares about self-improvement. Enjoys talking and studying about functional and reactive programming, and mobile native/front-end architecture patterns.<br /><br />Profissional skills:
+  Mobile and front-end developer based in Brazil focused on new and scalable technologies, who loves sharing knowledge, thinks analytically, and cares about self-improvement. Enjoys talking and studying about functional/reactive programming and web/mobile app architecture patterns.<br />
     - **Mobile:** 5+ years as a native mobile developer, mainly iOS/React Native, with working experience ranging
-      from Swift/Objective-C native iOS mobile apps to RN's native modules (Android and iOS) and CI/CD automation with fastlane.
-    - **Front-end:** 3+ years experience working on large react.js projects, from native mobile apps to web dashboards,
-      using modern web development tools eg. typescript, pnpm, esbuild, vitejs, etc.
+      from Swift/Objective-C native iOS apps to RN's native modules (Android and iOS) and CI/CD automation with fastlane.
+    - **Front-end:** 3+ years experience working on large react.js projects, from RN apps to web dashboards,
+      using modern web dev tools like typescript, pnpm, esbuild, vitejs etc.
     - **Back-end:** 3+ years experience working on node.js/typescript back-end projects using tools like
       nest.js, graphql, elasticsearch, docker, github actions and AWS stack.
 
@@ -84,7 +84,7 @@ content:
             - Develop and improve native mobile SDKs for both Android (Java) and iOS (Swift) to manage bluetooth communication and access to the ABECS parser C library;
             - Implement RN native modules for both Android (Java) and iOS (Objective-C) to bridge functionalities from the native SDKs;
             - Implement and improve features on the main app using typescript, react native, redux, redux-epics, rxjs, and other tools;
-            - Automate app's continuous delivery process with fastlane on circleCI;
+            - Automate app's continuous delivery process on circleCI with fastlane;
             - Implement and improve a few micro-services using node.js, AWS lambda, dynamodb, sqs, and other AWS stack services.
       - layout: left
         title: WiseGo
