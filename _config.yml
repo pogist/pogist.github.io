@@ -37,7 +37,7 @@ linkedin_username: pogist
 # about_title: About Me (Use this to override about section title)
 about_profile_image: images/profile.jpg
 about_content: | # this will include new lines to allow paragraphs
-  Mobile and front-end developer based in Brazil focused on new and scalable technologies, who loves sharing knowledge, thinks analytically, and cares about self-improvement. Enjoys talking and studying about functional/reactive programming and web/mobile app architecture patterns.<br />
+  Mobile and front-end developer based in Brazil who thinks analytically, and cares about self-improvement. Enjoys talking and studying about functional/reactive programming and web/mobile app architecture patterns.<br />
     - **Mobile:** 5+ years as a native mobile developer, mainly iOS/React Native, with working experience ranging
       from Swift/Objective-C native iOS apps to RN's native modules (Android and iOS) and CI/CD automation with fastlane.
     - **Front-end:** 3+ years experience working on large react.js projects, from RN apps to web dashboards,
